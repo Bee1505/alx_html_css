@@ -62,7 +62,7 @@
   <!-- Footer -->
   <footer class="footer" data-section-theme="dark">
     <div class="container">
-      <div class="row">
+      <div class="row" style="display: flex;"> <!-- Added style for the grid section -->
         <div class="col-1-2">
           <img src="images/logo-white.png" alt="Techium logo" width="160" height="40">
           <address class="footer-address">
