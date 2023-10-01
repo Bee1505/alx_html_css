@@ -5,27 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Title</title>
-    <link rel="stylesheet" href="styles.css"> <!-- You can link your CSS file here if you have one -->
     <style>
         /* CSS for header layout */
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 20px; /* Add padding for spacing */
+            padding: 10px 20px;
         }
 
         .logo-link {
-            /* Adjust margin to control the distance from the left */
             margin-left: 0;
         }
 
         .nav-links {
-            /* Adjust margin to control the distance from the right */
             margin-right: 0;
         }
 
-        /* Add any additional styling as needed */
+        /* CSS for banner section */
+        main {
+            padding: 20px;
+        }
+
+        .banner-section {
+            margin-top: 5px;
+        }
+
+        .block {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 500px; /* Set a specific height for the block if needed */
+            margin-bottom: 10px;
+            padding: 0px;
+            border: 1px solid #ccc;
+            text-align: center;;
+        }
+
+        .block img {
+            width: 100%;
+        }
+        .sub-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.sub-block img {
+    width: 100px; /* Set a specific width for the images */
+    margin-bottom: 50px; /* Add space between images and names */
+}
+
+.sub-block-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-block-content h3 {
+    margin-right: 50px; /* Add space between names and subtitles */
+}
+.quote-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    text-align: flex-start;
+    border: 1px solid #ccc;
+        }
+
+        .quote-block {
+            display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 300px;
+        }
+
+        .quote-image {
+            width: 100px;
+    margin-bottom: 10px;
+        }
+        .videos-section {
+            padding: 20px;
+            text-align: flex-start;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between
+        }
+        .video-block {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: left;
+            
+        }
+
+        .video-content img,
+        .author-block img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .rating-block img {
+            width: 20px;
+            margin-right: 5px;
+        }
+
+        .author-block,
+        .rating-block {
+            margin-top: 10px;
+        }
+        .membership-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.membership-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.membership-item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.membership-item img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.membership-item h3 {
+    margin-bottom: 10px;
+}
+
+.membership-item p {
+    margin-bottom: 20px;
+}
+
+.membership-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.membership-item button:hover {
+
+}
+.faq-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.row-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.item-block {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.item-block h3 {
+    margin-bottom: 10px;
+}
+
+
+
     </style>
 </head>
 
@@ -45,9 +208,293 @@
         </nav>
     </header>
 
-    <!-- The rest of your webpage content goes here -->
+    <main>
+        <section class="banner-section">
+            <div class="block">
+                <h2>TITLE</h2>
+                <p>3 WORDS</p>
+                <button>BUTTON</button>
+            </div>
+            <br><br/>
+            <br><br/>
+            <br><br/>
+        
+            
+
+            <div class="block">
+                <h2>TITLE</h2>
+                <div class="sub-block">
+                    <div class="sub-block-content">
+                        <img src="image1.jpg" alt="IMAGE">
+                        <h3>NAME</h3>
+                        <h3>SUB TITLE</h3>
+                        
+                    </div>
+                </div>
+                <div class="sub-block">
+                    <div class="sub-block-content">
+                        <img src="image2.jpg" alt="IMAGE">
+                        <h3>NAME</h3>
+                        <h3>SUB TITLE</h3>
+                        
+                    </div>
+                </div>
+                <div class="sub-block">
+                    <div class="sub-block-content">
+                        <img src="image3.jpg" alt="IMAGE">
+                        <h3>NAME</h3>
+                        <h3>SUB TITLE</h3>
+                        
+                    </div>
+                </div>
+                <div class="sub-block">
+                    <div class="sub-block-content">
+                        <img src="image4.jpg" alt="IMAGE">
+                        <h3>NAME</h3>
+                        <h3>SUB TITLE</h3>
+                    </div>
+                        </div>
+                        </section>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <main>
+        <br> <br/>
+        <br> <br/>
+        <br> <br/>
+        <br> <br/>
+        <section class="quote-section">
+            <div class="quote-block">
+                <img src="image5.jpg" alt="IMAGE" class="quote-image">
+                <div class="quote-content">
+                    <blockquote>QUOTE</blockquote>
+                    <h3>AUTHOR</h3>
+                    <h3>SUB TITLE</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <main>
+        <section class="videos-section">
+            <h2>TITLE</h2>
+            <div class="video-block">
+            <img src="video1-thumbnail.jpg" alt="IMAGE">
+            <h3>TITLE</h3>
+            <p>TEXT</p>
+
+            <!-- Author Block -->
+            <div class="author-block">
+                <img src="author1-avatar.jpg" alt="IMAGE">
+                <h4>TITLE</h4>
+            </div>
+
+            <!-- Rating Block -->
+            <div class="rating-block">
+                <!-- Star Images for Rating (Example: 3 stars) -->
+                <img src="star.png" alt="IMAGES">
+                <img src="star.png" alt="IMAGES">
+                <img src="star.png" alt="IMAGES">
+
+                <p>TEXT</p>
+
+            <div class="video-block">
+                <img src="video1-thumbnail.jpg" alt="IMAGE">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+
+                <!-- Author Block -->
+                <div class="author-block">
+                    <img src="author1-avatar.jpg" alt="IMAGE">
+                    <h4>TITLE</h4>
+                </div>
+
+                <!-- Rating Block -->
+                <div class="rating-block">
+                    <!-- Star Images for Rating (Example: 3 stars) -->
+                    <img src="star.png" alt="IMAGES">
+                    <img src="star.png" alt="IMAGES">
+                    <img src="star.png" alt="IMAGES">
+
+                    <p>TEXT</p>
+                
+            </div>
+
+            
+            <div class="video-block">
+                <img src="video1-thumbnail.jpg" alt="IMAGE">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+
+                <!-- Author Block -->
+                <div class="author-block">
+                    <img src="author1-avatar.jpg" alt="IMAGE">
+                    <h4>TITLE</h4>
+                </div>
+
+                <!-- Rating Block -->
+                <div class="rating-block">
+                    <!-- Star Images for Rating (Example: 3 stars) -->
+                    <img src="star.png" alt="IMAGES">
+                    <img src="star.png" alt="IMAGES">
+                    <img src="star.png" alt="IMAGES">
+
+                    <p>TEXT</p>
+               
+            </div>
+
+            <div class="video-block">
+                <img src="video4-thumbnail.jpg" alt="IMAGE">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+
+                <!-- Author Block -->
+                <div class="author-block">
+                    <img src="author1-avatar.jpg" alt="IMAGE">
+                    <h4>TITLE</h4>
+                </div>
+
+                <!-- Rating Block -->
+                <div class="rating-block">
+                    <!-- Star Images for Rating (Example: 3 stars) -->
+                    <img src="star.png" alt="IMAGES">
+                    <img src="star.png" alt="IMAGES">
+                    <img src="star.png" alt="IMAGES">
+
+                    <p>TEXT</p>
+                
+            </div>
+        </section>
+    </main>
+    <!-- ... (your existing HTML code) ... -->
+
+<main>
+
+    <!-- ... (your existing content) ... -->
+
+    <section class="membership-section">
+        <h2>TITLE</h2>
+        
+        <div class="membership-block">
+            <div class="membership-item">
+                <img src="membership1.jpg" alt="IMAGE">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+                <button> BUTTON </button>
+                
+            </div>
+
+            <div class="membership-item">
+                <img src="membership2.jpg" alt="IMAGE">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+                <button> BUTTON </button>
+                
+            </div>
+
+            <div class="membership-item">
+                <img src="membership3.jpg" alt="IMAGE">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+                <button> BUTTON </button>
+                
+            </div>
+
+            <div class="membership-item">
+                <img src="membership4.jpg" alt="IMAGE">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+                <button> BUTTON </button>
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+</main>
+
+
+<main>
+
+    <section class="membership-section">
+        
+    </section>
+
+    
+    <section class="faq-section">
+        <h2>TITLE</h2>
+
+        <!-- Row Block 1 -->
+        <div class="row-block">
+            <!-- Item Block 1 -->
+            <div class="item-block">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+            </div>
+            <!-- Item Block 2 -->
+            <div class="item-block">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+            </div>
+        </div>
+
+        <!-- Row Block 2 -->
+        <div class="row-block">
+            <!-- Item Block 3 -->
+            <div class="item-block">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+            </div>
+            <!-- Item Block 4 -->
+            <div class="item-block">
+                <h3>TITLE</h3>
+                <p>TEXT</p>
+            </div>
+        </div>
+    </section>
+</main>
+<main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="global-block">
+            <!-- Row block inside footer -->
+            <div class="row-block">
+                <!-- Image in the footer -->
+                <img src="footer-logo.png" alt="LOGO">
+
+                <!-- Block with images and text in the footer -->
+                <div class="footer-content">
+                    <!-- Images with links in the footer -->
+                    <div class="footer-links">
+                        <a href="#">
+                            <img src="social-media-icon1.png" alt="IMAGE">
+                        </a>
+                        <a href="#">
+                            <img src="social-media-icon2.png" alt="IMAGE">
+                        </a>
+                        <a href="#">
+                            <img src="social-media-icon3.png" alt="IMAGE">
+                        </a>
+                        <!-- Add more social media icons as needed -->
+                    </div>
+
+                    <!-- Text in the footer -->
+                    <p>TEXT</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+
+
+ <!-- The rest of your webpage content goes here -->
 
 </body>
+
 
 </html>
 
